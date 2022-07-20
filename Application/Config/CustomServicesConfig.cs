@@ -10,6 +10,7 @@ namespace Application.Config
         {
             services.AddScoped<IDeliveryService, DeliveryService>();
             services.AddScoped<IFeedbackService, FeedbackService>();
+            services.AddScoped<IEmailService, EmailService>();
         }
     }
 }
